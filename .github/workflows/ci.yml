@@ -1,4 +1,4 @@
-name: Dioxus CI
+name: Application CI
 
 on:
   push:
