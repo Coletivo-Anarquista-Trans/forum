@@ -1,8 +1,8 @@
 <samp>
 
-<p style="font-size:2em; font-weight:bold; margin-bottom:0; line-height: 70px" align="center">
+<h3 align="center">
     🎹+🐱 SynthCat MVP
-</p>
+</h3>
 
 <p align="center">
 <img src="https://img.shields.io/github/checks-status/Coletivo-Anarquista-Trans/forum/tauri-dioxus" alt="GitHub branch status">
