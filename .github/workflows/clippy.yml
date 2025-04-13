@@ -1,27 +1,14 @@
-name: Rust Clippy Lint
+on: push
+name: Clippy check
 
-on:
-  push:
-    branches: [main, tauri-dioxus]
-  pull_request:
-    branches: [main, tauri-dioxus]
+# Make sure CI fails on all warnings, including Clippy lints
+env:
+  RUSTFLAGS: "-Dwarnings"
 
 jobs:
-  clippy:
-    name: Run Clippy
+  clippy_check:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Rust
-        uses: actions/setup-rust@v1
-        with:
-          rust-version: 'stable'  # or the specific version you want
-
-      - name: Install Clippy
-        run: rustup component add clippy
-
+      - uses: actions/checkout@v4
       - name: Run Clippy
-        run: cargo clippy -- -D warnings
+        run: cargo clippy --all-targets --all-features
