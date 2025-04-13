@@ -50,7 +50,7 @@ To run the SynthCat project locally follow these steps, follow these steps:
 
 ### UI/UX Design
 - [ ] Design responsive layouts
-- [ ] Try to create a theme that meets the main website, so we can test if it has all the styling things that we need to create the website.
+- [ ] Try creating a theme that matches the main site, so we can test that it has all the style elements we need to create the site.
 - [ ] Ensure accessibility!! (I think that it's really important)
 
 ### Core Features
