@@ -2,7 +2,7 @@ use dioxus::prelude::*;
 
 #[component]
 pub fn Echo() -> Element {
-    let mut response = use_signal(|| String::new());
+    let mut response = use_signal(String::new);
 
     rsx! {
         div {
