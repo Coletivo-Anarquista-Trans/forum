@@ -13,5 +13,12 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: clippy
+
+      - name: install webkit2gtk
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webkit2gtk-4.1
+
       - name: Run Clippy
         run: cargo clippy --all-targets --all-features
