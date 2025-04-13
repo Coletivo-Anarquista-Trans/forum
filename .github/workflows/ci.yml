@@ -2,9 +2,9 @@ name: Dioxus CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, tauri-dioxus]
   pull_request:
-    branches: [main]
+    branches: [main, tauri-dioxus]
 
 jobs:
   build-and-test:
