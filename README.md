@@ -41,12 +41,12 @@ To run the SynthCat project locally follow these steps, follow these steps:
 # Roadmap
 
 ### Setup & Tooling
-- [ ] Install and configure Dioxus CLI.
-- [ ] Set up dev environments
-  - [ ] Web
-  - [ ] Desktop
-  - [ ] Mobile (IOS / I (Sofia) have a MacOS so I think I can build it + Android)
-- [ ] Enable hot reloading and debugging tools.
+- [x] Install and configure Dioxus CLI.
+- [x] Set up dev environments
+  - [x] Web
+  - [x] Desktop
+  - [x] Mobile (IOS / I (Sofia) have a MacOS so I think I can build it + Android)
+- [x] Enable hot reloading and debugging tools.
 
 ### UI/UX Design
 - [ ] Design responsive layouts
@@ -65,7 +65,6 @@ To run the SynthCat project locally follow these steps, follow these steps:
 
 ### Platform Tests
 - [ ] Mobile
-  - [ ] Touch interaction
   - [ ] Test screen sizes + Theme if it renders in a good way
   - [ ] Test Permissions and features that mobile can do
 - [ ] Desktop
