@@ -1,5 +1,8 @@
 [application]
 
+name = "synthcat"
+out_dir = "dist"
+
 [web.app]
 
 # HTML title tag content
@@ -19,3 +22,7 @@ script = []
 # Javascript code file
 # serve: [dev-server] only
 script = []
+
+[bundle]
+publisher = "ColetivoATS"
+identifier = "com.synthcat"
