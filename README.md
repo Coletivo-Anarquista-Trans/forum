@@ -61,7 +61,7 @@ To run the SynthCat project locally follow these steps, follow these steps:
   - [ ] CRUD posts
   - [ ] Comments
   - [ ] Tags & categories
-- [ ] Real-time updates (WebSockets / This is really important just to make it more interactive, them a normal forum :c)
+- [ ] Real-time updates (WebSockets / This is really important just to make it more interactive than a normal forum :c)
 
 ### Platform Tests
 - [ ] Mobile
