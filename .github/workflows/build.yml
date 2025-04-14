@@ -58,7 +58,7 @@ jobs:
           dx bundle --platform android --no-default-features --release
 
       - name: Rename Android Bundle
-        run: mv -f dist/*.aab dist/app-android-${{ github.ref_name }}.aab
+        run: mv -Force dist/*.aab dist/app-android-${{ github.ref_name }}.aab
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
@@ -89,7 +89,7 @@ jobs:
         run: dx bundle --platform desktop --release
 
       - name: Rename Windows Executable
-        run: mv -f dist/*.exe dist/app-windows-${{ github.ref_name }}.exe
+        run: mv -Force dist/*.exe dist/app-windows-${{ github.ref_name }}.exe
 
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
